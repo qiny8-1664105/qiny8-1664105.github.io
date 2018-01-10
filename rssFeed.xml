@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Info 101 RSS Feed</title>
+  <link>https://students.washington.edu/qiny8</link>
+  <description>A RSS Feed for builder.</description>
+  <item>
+    <title>Info 101 RSS Feed item test</title>
+    <link>https://students.washington.edu/qiny8</link>
+    <description>Just try</description>
+  </item>
+</channel>
+
+</rss>
