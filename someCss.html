@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A Personaly Index Website of Nestor Qin">
+    <meta name="author" content="Nestor Qin">
+
+    <title>Neet's Base - Blog of Nestor</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+
+    <!-- Temporary navbar container fix -->
+    <style>
+    .navbar-toggler {
+        z-index: 1;
+    }
+    
+    @media (max-width: 576px) {
+        nav > .container {
+            width: 100%;
+        }
+    }
+    </style>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/tether/tether.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCHyW2uxsLdOMUiBTxjsdCZ4D8AQMw93U&sensor=false"></script>
+	<script src="js/ajax-promise.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar fixed-top navbar-toggleable-md navbar-light">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
+            Menu <i class="fa fa-bars"></i>
+        </button>
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">Nestor's Blog</a>
+            <div class="collapse navbar-collapse" id="navbarExample">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#favorites">Favorites</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#puzzlegame">15 Puzzles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#speedreader">SpeedReader</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="masthead">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                        <h1 class="brand-heading">Neet's Base</h1>
+                        <p class="intro-text">A Portfolio Website Owned by Nestor for Personal Usage.
+                            <br>Stores Information and Memories.</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 offset-md-2">
+                <h2>About this blog</h2>
+                <p>This website is a personal blog/portfolio web site owned and created by Nestor Qin, a student currently studying at <a href="http://www.washington.edu/">University of Washington</a>.</p>
+                <p>The main contents of this website are some journals, photos, videos, and other kinds of things related to Nestor.</p>
+                <p>You can learn a lot about me through this website. Feel free to explore here. (*ﾟ∀ﾟ*)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="favorites" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 offset-md-2">
+                    <h2>Favorite things</h2>
+                    <p>You can view my fravorite things in lots of kinds though the link below.</p>
+                    <a href="favorites/index.html" class="btn btn-default btn-lg">Visit Favorite page</a>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section id="puzzlegame" class="content-section text-center">
+        <div>
+            <div class="container">
+                <div class="col-lg-8 offset-md-2">
+                    <h2>Fifteen Puzzles</h2>
+                    <p>This is a small web game called 15 puzzles, in which you should try to arrange arrange
+						the tiles into numerical order by repeatedly sliding a square that neighbors the 
+						missing square into its empty space.
+                    </p>
+                    <a href="projects/puzzle/index.html" class="btn btn-default btn-lg"><i class="fa fa-puzzle-piece" aria-hidden="true"></i>15 Puzzle!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="speedreader" class="content-section text-center">
+        <div class="nocontent">
+            <div class="container">
+                <div class="col-lg-8 offset-md-2">
+                    <h2>SpeedReader</h2>
+                    <p>This is a simple tool which uses Rapid Serial Visual Presentation (RSVP) to increase your reading speed by play an animation presenting your input text word by word.</p>
+                    <a href="projects/speedreader/index.html" class="btn btn-default btn-lg"><i class="fa fa-commenting" aria-hidden="true"></i>SpeedReader</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 offset-md-2">
+                <h2>Contact Nestor Qin</h2>
+                <p>Feel free to  contact and talk with me about anything though any method below. I can't wait for making some new friends!</p>
+                <ul class="list-inline banner-social-buttons">
+                    <li class="list-inline-item">
+                        <a href="http://weibo.com/2309407587/profile" class="btn btn-default btn-lg"><i class="fa fa-weibo" aria-hidden="true"></i> <span class="network-name">Weibo</span></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/imba_qxy" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/Neet-Nestor" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/profile.php?id=100008451521745" class="btn btn-default btn-lg"><i class="fa fa-facebook-square" aria-hidden="true"></i> <span class="network-name">Facebook</span></a>
+                    </li>
+                </ul>
+                <p>Or you can directly send questions to me via the button below.</p>
+                <ul class="list-inline banner-social-buttons">
+                	<li class="list-inline-item">
+						<a href="favorites/contact.html" class="btn btn-default btn-lg">
+						<i class="fa fa-envelope" aria-hidden="true"></i> <span class="network-name">Send Questions</span></a>
+					</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <div id="map"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Nestor Qin 2017</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
