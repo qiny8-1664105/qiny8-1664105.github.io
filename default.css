@@ -1,0 +1,26 @@
+.media {
+	border-radius: 20px;
+	border-color: black;
+	border-radius: 2px;
+}
+
+button {
+	background-color: grey;
+	font-weight: bolder;
+}
+
+body {
+	background-color: gray;
+}
+
+img {
+	border-radius: 10px;
+	float: left;
+	border-radius: 5px;
+}
+
+a {
+	color: green;
+	font-style: italic;
+	font-weight: bold;
+}
